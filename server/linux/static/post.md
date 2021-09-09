@@ -7,3 +7,5 @@
 <hr></hr>
 
 {CONTENT}
+
+{OPTIONS}
