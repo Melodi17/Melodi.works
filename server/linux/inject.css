@@ -253,6 +253,15 @@ a {
     cursor: pointer;
     text-decoration: none;
     color: rgb(51, 51, 51);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: hsl(206,100%,52%);
 }
 
 .padding {
