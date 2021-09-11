@@ -1,3 +1,14 @@
+<script>
+if ((navigator.webdriver == true) && !window.location.href.endsWith('/bot')) {
+    window.location.href = "/errors/bot";
+}
+if ((window.document.documentElement.getAttribute("webdriver")) && !window.location.href.endsWith('/bot')) {
+    window.location.href = "/errors/bot";
+}
+if ((window.callPhantom || window._phantom) && !window.location.href.endsWith('/bot')) {
+    window.location.href = "/errors/bot";
+}
+</script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><style type='text/css'>
 #mypfpimg {
     -webkit-filter: brightness(100%);
